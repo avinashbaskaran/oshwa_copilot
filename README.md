@@ -3,3 +3,6 @@ An AI "copilot" app to help new and practiced users navigate the library of Open
 
 This project is designed to run in a Hugging Face Space found at:
 https://huggingface.co/spaces/Avinashb/OSHWA_Copilot
+
+The main list of 2000+ OSHWA certified projects can be found here:
+https://certification.oshwa.org
