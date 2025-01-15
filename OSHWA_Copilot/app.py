@@ -8,7 +8,7 @@ OSHWA_API_URL = "https://certificationapi.oshwa.org/api/projects"
 OSHWA_API_KEY = os.getenv("OSHWA_API_KEY", "your_default_api_key")  # Replace with your default key or set as an environment variable
 HEADERS = {
     "Content-Type": "application/json",
-    "Authorization": f"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ODFjNWI5MjY5YmUyMDAxNDFiOTRhZiIsImlhdCI6MTczNjU2MTM2NCwiZXhwIjoxNzQ1MjAxMzY0fQ.t-lAHj3Tordi9nEgvOaJsitFJnrFrla_uvrM1OkhRIc"
+    "Authorization": f"Bearer <YOUR OSHWA API KEY>" # OSHWA API: https://certificationapi.oshwa.org/endpoints/
 }
 
 client = InferenceClient("HuggingFaceH4/zephyr-7b-beta")
